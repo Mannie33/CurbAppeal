@@ -1,0 +1,79 @@
+@media all {
+
+    body {
+        font-family: 'Oswald', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    /* Navigation Bar */
+    nav {
+        background-color: black;
+    }
+
+    .navbar {
+        padding: 0 20%; 
+    }
+
+    /* Title Section */
+
+    #title {
+       padding: 3% 20%; 
+       background-image: url(images/LandscapingBackground.jpeg);
+       background-size: cover;
+       background-color: rgb(87, 80, 80);
+       background-blend-mode: soft-light;
+    }
+
+    .title-logo {
+        margin: 200px 0;
+    }
+
+    /* Information Section */
+
+    #information {
+        background-color: white; 
+        font-family: 'Open Sans', sans-serif;
+        padding: 3% 20%; 
+        text-align: center; 
+    }
+
+    .information-header {
+        color: #39B54A;
+        font-size: 2rem;
+        margin-bottom: 50px; 
+    }
+
+    .information-square {
+        padding: 0 2%;
+    }
+
+    .information-section-title {
+        margin-bottom: 20px;
+        font-size: 1.25rem;
+        font-weight: bold; 
+    }
+
+    .information-section-body {
+        color: #666;
+        margin-bottom: 10px;
+        font-size: 0.85rem; 
+    }
+
+    .more-service-button {
+        margin-top: 20px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .button-container {
+        text-align: center;
+    }
+
+    /* Footer  */
+    #footer {
+        background-color: black; 
+        color: #666; 
+        font-family: 'Open Sans', sans-serif;
+        padding: 1% 21%; 
+    }
+
+}
